@@ -1,4 +1,4 @@
-# cordova-plugin-audioinput
+# @frat/cordova-plugin-audioinput
 This Cordova plugin enables audio capture from the device microphone, by in (near) real-time forwarding raw audio data to the web layer of your web application.
 A typical usage scenario for this plugin would be to use the captured microphone audio as an audio source for [Web audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API) based applications.
 
@@ -17,12 +17,12 @@ The plugin supports two different methods for microphone capture:
 ## Installation
 From the Cordova Plugin Repository:
 ```
-cordova plugin add cordova-plugin-audioinput
+cordova plugin add @frat/cordova-plugin-audioinput
 ```
 
 or by using the GitHub project URL:
 ```
-cordova plugin add https://github.com/edimuj/cordova-plugin-audioinput.git
+cordova plugin add https://github.com/ratson/cordova-plugin-audioinput.git
 ```
 
 I haven't tested the plugin with PhoneGap build and ionic build, so feel free to message me if you tried it with success there.
@@ -335,9 +335,6 @@ When using `streamToWebAudio`, and have not supplied the plugin with an Audio co
 audioinput.getAudioContext();
 ```
 
-## Todo list
-[Enhancements](https://github.com/edimuj/cordova-plugin-audioinput/labels/enhancement)
-
 ## Motivate us!
 Do you use this plugin in an published app? Feel free to star the project and/or message me about it. It is always super-exciting to see real-world applications using this plugin, and it helps us to prioritize new features and bug fixes.
 
@@ -357,7 +354,7 @@ This project is open-source, so contributions are welcome. Just ensure that your
 ## Credits
 * The plugin is created by Edin Mujkanovic.
 
-[Other contributors](https://github.com/edimuj/cordova-plugin-audioinput/graphs/contributors)
+[Other contributors](https://github.com/ratson/cordova-plugin-audioinput/graphs/contributors)
 
 ## License
-[MIT License](https://github.com/edimuj/cordova-plugin-audioinput/blob/master/LICENSE)
+[MIT License](./LICENSE)

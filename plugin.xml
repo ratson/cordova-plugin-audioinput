@@ -13,7 +13,7 @@
     <keywords>
         cordova,phonegap,media,microphone,mic,input,audio,waapi,audionode,web,audio,api,audionode,capture,ios,android
     </keywords>
-    <repo>git@github.com:edimuj/cordova-plugin-audioinput.git</repo>
+    <repo>https://github.com/ratson/cordova-plugin-audioinput.git</repo>
 
     <js-module name="AudioInput" src="www/audioInputCapture.js">
         <clobbers target="audioinput"/>
